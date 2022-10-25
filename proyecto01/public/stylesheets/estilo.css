@@ -1,0 +1,12 @@
+
+body{
+    background-color: #C6D2C4;
+}
+*{
+    font-family: 'Merriweather', serif;
+}
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
