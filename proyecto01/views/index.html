@@ -6,120 +6,145 @@
         </style>
         <link rel='stylesheet' href='..\public\stylesheets\estilo.css' />
         <link rel="shortcut icon" type="image/x-icon" href=""/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>
             cv 
         </title>
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                  <li><a href="#"> Conocimiemtos</a></li>
-                  <li><a href="#">Portafolio</a></li>
-                  <li><a href="#">Contacto</a></li>
-                </ul>
-              </nav>
+            <div class="first-container">
+                <nav>
+                    <ul>
+                        <li><a href="#conocimientos"> Conocimiemtos</a></li>
+                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
             <div>
-                <h1>Hi!, Soy Nicole Moran Web Developer</h1>
-            </div>  
+                <h1>Hi!, Soy Nicole Moran </h1>
+                <h2>Web Developer</h2>
+            </div>
+            
+            
         </header>
            
         <div>
-            <img src="..\public\images\cvFoto.jpg" alt="foto de Nicole" title="imagen de perfil" width="250" >
-            <table>
-                <tr>
-                    <td>
-                        <img src="photo2.png" alt="img1">
-                        <h5>Diseñador</h5>
-                        <h6>Html, js, css</h6>
-                    </td>
-                    <td>
-                        <img src="photo3.png" alt="img2">
-                        <h5>Front-end</h5>
-                        <h6>Web, Mobile, UI</h6>
-                    </td>
-                    <td>
-                        <img src="photo4.png" alt="img3">
-                        <h5>Back-end</h5>
-                        <h6>Nodejs, Sprint, c.net</h6>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>
-                        <button name="button1"> Contactame </button>
-                    </td>
-                    <td></td>
-                </tr>
-                
-            </table>
+            <div class="container-foto">
+                <img class="foto" src="..\public\images\cvFoto.jpg" alt="foto de Nicole" title="imagen de perfil"  >
+            </div>
 
+            <div class="container-conocimientos" id="conocimientos">
+                <div>
+                    <img  class="icon1" src="..\public\images\photo2.png"  >
+                    <h4 class="text1" >Diseñador</h4>
+                    <h5 class="subtext1">HTML, Js , Css</h5>
+                </div>
+                <div>
+                    <img class="icon2" src="..\public\images\photo3.png" >
+                    <h4 class="text2">Front-end</h4>
+                    <h5 class="subtext2">Web, Mobile, UI</h5>
+                </div>
+                <div>
+                    <img  class="icon3" src="..\public\images\photo4.png">
+                    <h4 class="text3">Back-end</h4>
+                    <h5 class="subtext3">NodeJs, Sprint , .Net</h5>
+                    
+                </div>
+        
+            </div>
+            <div class="tabla-idiomas">
+                <table class="default">
+
+                    <tr>
+                  
+                      <td>Idiomas</td>
+                  
+                      <td>Hablado</td>
+                  
+                      <td>Escrito</td>
+                  
+                    </tr>
+                  
+                    <tr>
+                  
+                      <td>Español</td>
+                  
+                      <td>100%</td>
+                  
+                      <td>80%</td>
+                  
+                    </tr>
+                    <tr>
+                  
+                        <td>Ingles</td>
+                    
+                        <td>60%</td>
+                    
+                        <td>70%</td>
+                    
+                      </tr>
+
+                  
+                  </table>
+            </div>
         </div>
-        <div>
-            <h3> Portafolio</h3>
-            <table>
-                <tr>
-                    <td>
-                        <img src="photo5.png" alt="img5">
-                    </td>
-                    <td>
-                        <img src="photo6.png" alt="img6">
-                    </td>
-                    <td>
-                        <img src="photo7.png" alt="img7">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="photo5.png" alt="img5">
-                    </td>
-                    <td>
-                        <img src="photo6.png" alt="img6">
-                    </td>
-                    <td>
-                        <img src="photo7.png" alt="img7">
-                    </td>
-                </tr>
-                
-            </table>
+        <div class="portafolio">
+            <div class="labelPortafolio" id="portafolio">
+                <h3> Portafolio <span class="material-symbols-outlined">
+                    library_books
+                    </span></h3>
+            </div>
+            <div class="container-portafolio">
+                <img class="img5" src="../public/images/photo5.png" alt="img5" >
+                <img class="img6" src="../public/images/photo6.png" alt="img6" >
+                <img class="img7" src="../public/images/photo7.png" alt="img7" >
+                <video class="video1"  controls="yes">
+                    <source src="../public/media/video1.mp4" type="video/mp4" >
+                </video>
+            </div>    
+            
         </div>
-        <div>
-            <h3>Contactame<h3>
-            <form>
-                <input type="text" placeholder="Nombre"> 
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Asunto">
-                <input type="text" placeholder="Mensaje">
-                <button name="button2"> Enviar </button>
-            </form>
-              </div>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15948.33387722299!2d-79.90806475000001!3d-2.1215473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1666735214512!5m2!1ses!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <table>
-                <tr>
-                    <td>
-                        <img src="photo2.png" alt="img1">
-                        
-                    </td>
-                    <td>
-                        <img src="photo3.png" alt="img2">
-                        
-                    </td>
-                    <td>
-                        <img src="photo4.png" alt="img3">
-                        
-                    </td>
-                    <td>
-                        <img src="photo4.png" alt="img3">
-                        
-                    </td>
-                </tr>
-             
-                
-            </table>
-        </div>
-       
+
+
+
     </body>
-    <footer>Nicole Moran - 2022</footer>
+    <footer>
+        <div class="contacto-title">
+            <h3>Contactame <span class="material-symbols-outlined"> call</span></h3>
+        </div>
+        <div class="contactame" id="contact">
+            <div class="form-div">
+                <form>
+                    <input class="name" type="text" placeholder="Nombre"> 
+                    <input class="email" type="email" placeholder="Email">
+                    <input class="asunto" type="text" placeholder="Asunto">
+                    <input class="mensaje" type="text" placeholder="Mensaje">
+                    <button class="boton-enviar" name="button2"> Enviar </button>
+                </form>
+            </div>
+           
+       
+        <div class="container-mapa">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15948.33387722299!2d-79.90806475000001!3d-2.1215473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1666735214512!5m2!1ses!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+                <div class="conteiner-enlaces">
+                    <div class="enlaces">
+                    <a href="https://www.linkedin.com/learning/me/my-plan?u=92964874" target="_blank"> <img class="img8" src="../public/images/photo8.png" alt="img1" width="40px"></a>
+                    <a href="https://instagram.com/_nico.min_?igshid=YmMyMTA2M2Y=" target="_blank"> <img class="img10" src="../public/images/photo10.png" alt="img3"width="40px"></a>
+                    <a href="https://github.com/nmmoran" target="_blank"> <img class="img11" src="../public/images/photo11.png" alt="img4"width="40px"></a>
+                
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </div>
+    <div>
+        <h6>Nicole - 2022 </h6>
+    </div>
+    </footer>
     
 </html>
