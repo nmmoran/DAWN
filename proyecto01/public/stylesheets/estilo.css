@@ -105,6 +105,12 @@ td {
     flex-basis: auto;
     
 }
+
+.img5:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    color: rgb(68, 83, 71);
+    
+}
 .container-conocimientos:hover,
 .container-conocimientos:focus {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -118,21 +124,15 @@ td {
     margin-left:  245px;
     margin-right: 245px;
     background-color: #C6D2C4;  
+    display: flex;
+    text-align: center;
    
 }
 .container-conocimientos div{
     display: inline-block;
 
 }
-.img5 :hover,
-.img5 :focus{
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    color: rgb(68, 83, 71);
-
-}
-
 .img5{
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     width: 32%;
     border-radius: 12%;
 }
@@ -186,7 +186,7 @@ div table tr td image{
 .form-div{
     display: flex;
 }
-form{
+.form { 
     width: 100%;
     display: flex;
     justify-content: space-evenly; 
@@ -195,7 +195,22 @@ form{
     column-gap: 0.5rem;
     padding: 17px;
     flex: 1;
-    
+}
+.name::-webkit-input-placeholder
+{
+    color: white;
+}
+.email::-webkit-input-placeholder
+{
+    color: white;
+}
+.asunto::-webkit-input-placeholder
+{
+    color: white;
+}
+.mensaje::-webkit-input-placeholder
+{
+    color: white;
 }
 .contacto-title{
     padding-left: 25px;
@@ -214,6 +229,7 @@ input{
     row-gap: 0.5rem; 
     column-gap: 0.5rem;
     flex: 1;
+
 }
 
 
