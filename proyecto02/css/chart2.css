@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #bar-example-12 {
+    height: 500x;
+    width: 400px;
+  }
+
+  #bar-example-12 button {
+    width: 100%;
+    background: transparent;
+    font-size: 11px;
+  }
+  
+  #div-table{
+    height: 500px;
+    width: 400px;
+  }
+
+  
+  
