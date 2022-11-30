@@ -1,5 +1,5 @@
 let cargarChart1 = () => {
-  fetch("https://ghibliapi.herokuapp.com/films")
+  fetch("../peliculas.JSON")
     .then(response => response.text() )  
     .then(data =>{
     data = JSON.parse(data)
@@ -50,7 +50,7 @@ let cargarChart1 = () => {
   )}
 
 let cargarChart2 = () =>{
-    fetch("https://ghibliapi.herokuapp.com/films")
+    fetch("../peliculas.JSON")
       .then(response => response.text())
       .then(data => {
       data= JSON.parse(data)
@@ -104,7 +104,7 @@ let cargarChart2 = () =>{
   
 
 let cargarDatos = (directorSelected) => {
-    fetch("https://ghibliapi.herokuapp.com/films")
+    fetch("../peliculas.JSON")
       .then(response => response.text())
       .then(data => {
             data = JSON.parse(data)
@@ -133,7 +133,7 @@ let cargarDatos = (directorSelected) => {
 }
 
 let cargarOpciones = () => {
-  fetch("https://ghibliapi.herokuapp.com/films")
+  fetch("../peliculas.JSON")
     .then(response => response.text())
     .then(data => {
     data= JSON.parse(data)
