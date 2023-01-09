@@ -1,0 +1,54 @@
+*{
+    background-color: rgba(180, 197, 212, 0.862);
+    
+  }
+  mat-toolbar {
+    background-color: rgba(180, 197, 212, 0.862);
+  }
+  
+  mat-toolbar button {
+   background-color: rgba(50, 105, 136, 0.637);
+   border: 0; 
+  }
+  mat-icon{
+    background-color: rgba(50, 104, 136, 0.004);
+    color: azure;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    background-color: rgba(120, 138, 156, 0);
+    color:rgb(219, 230, 226);
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    
+  }
+  
+  .card img {
+    width: 50%;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+.themed-grid-col {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(50, 105, 136, 0.637);
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    border-radius: 5%;
+  }
+  p{
+    background-color: rgb(50, 104, 136);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: rgb(198, 217, 233);
+  }
+  .themed-container {
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(50, 105, 136, 0.637);
+    border: 1px solid rgba(50, 105, 136, 0.637);
+  }
+  

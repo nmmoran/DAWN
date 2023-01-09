@@ -1,0 +1,35 @@
+<main class="container-fluid">
+	<div class="row pt-2">
+		<div class="col-12">
+			<mat-toolbar>
+				<button mat-icon-button color="primary" aria-label="menu" routerLink="/peliculas">
+					<mat-icon>arrow_back</mat-icon>
+				</button>
+					<a routerLink="/informacion/{{pelicula.id}}">more info</a>
+				
+			</mat-toolbar>
+		</div>
+
+
+		<div class="col-12 col-md-4 text-center justify-content-center mx-auto">
+			<div class="card border-0">
+				<img src="{{pelicula.image}}" class="rounded mx-auto d-block img-thumbnail border-0 shadow-4-strong" alt="{{pelicula.title}}">
+				<div class="card-body">
+					<h5 class="card-title">{{pelicula.title}}</h5>
+					<p class="card-text">{{pelicula.description}}</p>
+					<div class="stats">
+						<div class="half divisor">
+							<div class="rate">{{pelicula.rt_score}}</div>
+							<div class="stat-value">Rate</div>
+						</div>
+						<div class="half">
+							<div class="stat">{{pelicula.running_time}}</div>
+							<div class="stat-value">Duration</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+</main>

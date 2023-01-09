@@ -1,0 +1,30 @@
+<main class="container-fluid">
+	<div class="row pt-2">
+		<div class="col-12">
+			<mat-toolbar>
+				<button mat-icon-button color="primary" aria-label="menu" routerLink="/pelicula/{{pelicula.id}}">
+					<mat-icon>arrow_back</mat-icon>
+				</button>
+			</mat-toolbar>
+		</div>
+
+		<div class="col-12 col-md-4 text-center justify-content-center mx-auto">
+			<div class="card border">
+				<img src="{{pelicula.image}}" class="rounded mx-auto d-block img-thumbnail border-0 shadow-4-strong" alt="{{pelicula.title}}">
+				<div class="card-body">
+                    <div class="row row-cols-1 row-cols-md-3 gy-4 text-center">
+						<div class="col themed-grid-col"><p>Titulo:</p>{{pelicula.title}} </div>
+                        <div class="col themed-grid-col"><p>Director:</p>{{pelicula.director}} </div>
+                        <div class="col themed-grid-col"> <p>Productor:</p>{{pelicula.producer}}</div>
+                        <div class="col themed-grid-col"><p>Titulo Original:</p>{{pelicula.original_title}} </div>
+                        <div class="col themed-grid-col"><p>Titulo Romantizado:</p>{{pelicula.original_title_romanised}} </div>
+                        <div class="col themed-grid-col"> <p>Fecha de Estreno:</p>{{pelicula.release_date}}</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+			
+	</div>
+</main>

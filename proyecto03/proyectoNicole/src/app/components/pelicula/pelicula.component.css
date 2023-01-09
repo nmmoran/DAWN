@@ -1,0 +1,93 @@
+
+*{
+  background-color: rgba(180, 197, 212, 0.862);
+  
+}
+a{
+  padding-left: 180px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 1.2rem;
+}
+mat-toolbar {
+    background-color: rgba(180, 197, 212, 0.862);
+  }
+  
+  mat-toolbar button {
+   background-color: rgba(50, 105, 136, 0.637);
+   border: 0; 
+  }
+  mat-icon{
+    background-color: rgba(50, 104, 136, 0.004);
+    color: azure;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    background-color: rgba(120, 138, 156, 0);
+    color:rgb(219, 230, 226);
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    
+  }
+  
+  .card-body{
+    background-color: rgba(50, 105, 136, 0.637);
+    border-radius: 10%;
+    color:rgb(229, 229, 240);
+  }
+  .card img {
+    width: 80%;
+    border-radius: 50%;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+ 
+  .card-text{
+    background-color: rgba(50, 104, 136, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+  }
+  .stat {
+    font-size: 1.3rem;
+    color: black;
+    line-height: normal;
+  }
+  
+  .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: rgba(63, 118, 149, 0.037);
+  }
+  
+  .half {
+    width: 50%;
+    float: left;
+    padding: 20px 15px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(50, 105, 136, 0.637);
+    border-radius: 20%;
+
+  }
+  .rate{
+    font-size:large;
+    background-color: rgba(50, 104, 136, 0);
+  }
+  .stat{
+    font-size:large;
+    color: #ffffff;
+    background-color: rgba(50, 104, 136, 0);
+  }
+  
+  div.half.divisor {
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+    width: 50%;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: rgba(50, 105, 136, 0.637);
+  }
