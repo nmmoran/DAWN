@@ -19,9 +19,6 @@ export class SplashComponent {
 
     })
 
-    setTimeout(() => {
-      this.router.navigate(['peliculas']);
-    }, 2500);
-
+  
     }
 }

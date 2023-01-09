@@ -16,7 +16,19 @@
 	height: 70vh;
 	width: 100vw;	
 }
-
+mat-toolbar {
+    background-color: rgba(180, 197, 212, 0.862);
+  }
+  
+  mat-toolbar button {
+   background-color: rgba(50, 105, 136, 0.637);
+   border: 0; 
+  }
+  mat-icon{
+    background-color: rgba(50, 104, 136, 0.004);
+    color: azure;
+  }
+ 
 h1 {
 	color: rgb(16, 19, 38);
 	font-size: 2rem;
